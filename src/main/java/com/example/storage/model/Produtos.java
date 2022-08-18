@@ -14,6 +14,10 @@ public class Produtos {
     private int quantidade;
     private String tipo;
 
+    private String modelo;
+
+    private String
+
     public String getId() {
         return id;
     }
