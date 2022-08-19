@@ -1,22 +1,14 @@
-package com.example.storage.model;
+package com.example.inventory.model.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
-@Entity
-public class Produtos {
-
-    @Id
-
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class ProdutosDto {
 
     private String id;
-    private String marca;
     private int quantidade;
     private String tipo;
-
-
-
-
+    private String marca;
 
     public String getId() {
         return id;
@@ -24,14 +16,6 @@ public class Produtos {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
     }
 
     public int getQuantidade() {
@@ -49,5 +33,12 @@ public class Produtos {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-}
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+}

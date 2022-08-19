@@ -1,8 +1,8 @@
-package com.example.storage.controller.mapper;
+package com.example.inventory.controller.mapper;
 
 
-import com.example.storage.controller.dto.ProdutosDto;
-import com.example.storage.model.Produtos;
+import com.example.inventory.model.dto.ProdutosDto;
+import com.example.inventory.model.Produtos;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;

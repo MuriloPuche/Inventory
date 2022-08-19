@@ -1,4 +1,4 @@
-package com.example.storage.config;
+package com.example.inventory.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket getDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.demo"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.inventory"))
                 .build()
                 .apiInfo(metaData());
     }

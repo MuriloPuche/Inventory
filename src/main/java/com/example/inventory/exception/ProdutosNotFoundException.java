@@ -1,4 +1,4 @@
-package com.example.storage.exception;
+package com.example.inventory.exception;
 
 
 import org.springframework.http.HttpStatus;

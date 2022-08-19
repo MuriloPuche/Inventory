@@ -1,4 +1,4 @@
-package com.example.storage.controller.dto;
+package com.example.inventory.model.dto;
 
 public class ProdutosCreateDto {
 

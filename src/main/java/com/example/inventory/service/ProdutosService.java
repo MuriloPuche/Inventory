@@ -1,9 +1,9 @@
-package com.example.storage.service;
+package com.example.inventory.service;
 
 
-import com.example.storage.exception.ProdutosNotFoundException;
-import com.example.storage.model.Produtos;
-import com.example.storage.repository.ProdutosRepository;
+import com.example.inventory.exception.ProdutosNotFoundException;
+import com.example.inventory.model.Produtos;
+import com.example.inventory.repository.ProdutosRepository;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

@@ -1,11 +1,11 @@
-package com.example.storage.controller;
+package com.example.inventory.controller;
 
 
-import com.example.storage.controller.dto.ProdutosDto;
-import com.example.storage.controller.mapper.ProdutosMapper;
-import com.example.storage.model.Produtos;
-import com.example.storage.repository.ProdutosRepository;
-import com.example.storage.service.ProdutosService;
+import com.example.inventory.model.dto.ProdutosDto;
+import com.example.inventory.controller.mapper.ProdutosMapper;
+import com.example.inventory.model.Produtos;
+import com.example.inventory.repository.ProdutosRepository;
+import com.example.inventory.service.ProdutosService;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
