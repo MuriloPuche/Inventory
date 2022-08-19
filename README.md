@@ -1,4 +1,4 @@
-# Storage
+# Inventory - How I helped my father using Spring + Java 18
 I did this CRUD to my father. He has a store and didn't have so much control of his storage. It's gonna help him to know everything he has and manage it through the year.
 
 # Solving the problem
