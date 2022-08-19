@@ -5,6 +5,15 @@ I did this CRUD to my father. He has a store and didn't have so much control of 
 
 Talking with my father about his problem, I realized that I could help him with a simple CRUD. For me the most important thing that a developer have is the skill of solving problems with code, so I tried to help my father, the most valuable person in my life.
 
+# Tecnologies
+
+* Postgres
+* Docker
+* Swagger
+* Maven
+* Spring Security
+* Spring JPA
+
 # HEROKU
 
 It's available here on Heroku: https://storage-db.herokuapp.com/swagger-ui.html
